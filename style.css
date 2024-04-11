@@ -19,8 +19,18 @@ header h1 {
   color: #1a2f33;
 }
 
-header p {
+header p,
+nav a {
   color: #527a7a;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2a9d8f;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main h2 {
@@ -54,4 +64,12 @@ ol li {
 footer p {
   font-size: 0.8em;
   color: #999;
+}
+
+/* 이미지 스타일 추가 */
+img {
+  max-width: 100%; /* 이미지가 부모 요소보다 클 경우 크기 조정 */
+  height: auto; /* 이미지 비율 유지 */
+  display: block; /* 중앙 정렬을 위해 블록 요소로 설정 */
+  margin: 0 auto; /* 상하 마진 0, 좌우 마진 자동으로 중앙 정렬 */
 }
