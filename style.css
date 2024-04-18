@@ -4,31 +4,45 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 20px;
-  padding-top: 100px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 header {
-  position: sticky; /* Fixes the header at the top of the viewport */
+  position: fixed; /* Fixes the header at the top of the viewport */
   top: 0; /* Aligns the header to the top edge of the viewport */
   width: 100%; /* Ensures the header spans the full width of the viewport */
   background-color: #fff; /* Sets a background color to the header */
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Adds a subtle shadow for better separation */
   z-index: 1000; /* Keeps the header above other content */
   padding: 10px 0; /* Adds vertical padding */
+  vertical-align: bottom;
 }
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
 footer {
   text-align: center;
   margin-bottom: 20px;
 }
 
 header h1 {
+  display: inline-block;
+  margin: 0;
   color: #1a2f33;
 }
 
-header p,
+header p {
+  display: inline-block;
+  margin: 10px;
+  color: #527a7a;
+}
 nav a {
   color: #527a7a;
 }
