@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  position: fixed; /* Fixes the header at the top of the viewport */
+  position: sticky; /* Fixes the header at the top of the viewport */
   top: 0; /* Aligns the header to the top edge of the viewport */
   width: 100%; /* Ensures the header spans the full width of the viewport */
   background-color: #fff; /* Sets a background color to the header */
