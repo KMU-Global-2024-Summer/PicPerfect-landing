@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 20px;
-  padding-top: 80px;
+  padding-top: 100px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -14,7 +14,7 @@ header {
   position: fixed; /* Fixes the header at the top of the viewport */
   top: 0; /* Aligns the header to the top edge of the viewport */
   width: 100%; /* Ensures the header spans the full width of the viewport */
-  background-color: white; /* Sets a background color to the header */
+  background-color: #fff; /* Sets a background color to the header */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better separation */
   z-index: 1000; /* Keeps the header above other content */
   padding: 10px 0; /* Adds vertical padding */
