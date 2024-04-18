@@ -15,7 +15,7 @@ header {
   top: 0; /* Aligns the header to the top edge of the viewport */
   width: 100%; /* Ensures the header spans the full width of the viewport */
   background-color: #fff; /* Sets a background color to the header */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better separation */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Adds a subtle shadow for better separation */
   z-index: 1000; /* Keeps the header above other content */
   padding: 10px 0; /* Adds vertical padding */
 }
